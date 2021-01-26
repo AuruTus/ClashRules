@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+    - {"name":"test","type":"ss","server":"test","port":"9303","cipher":"test","password":"test","plugin":"test","plugin-opts":{"mode":"http","host":"test"}}
 
 proxy-groups:
   - name: 🔰 节点选择
